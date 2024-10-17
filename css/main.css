@@ -1,0 +1,158 @@
+/** Fonts **/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/** Defaults **/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 36px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    background: none;
+    border: none;
+}
+
+/** Logo top/bottom */
+.logo-top a, .logo-top a span, .logo-bottom a, .logo-bottom a span {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.logo-bottom a, .logo-bottom a span {
+    color: #fff;
+}
+
+.logo-top span, .logo-bottom a span {
+    color: #4D5AE5;
+}
+
+/** Container */
+.container {
+  margin: 0 auto;
+  padding: 0 85px 0 85px;
+}
+
+/** Nav */
+nav .logo-top a {
+    margin-right: 30px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 72px;
+}
+
+nav .nav-item, nav .nav-item.right {
+    float: left;
+    margin: 2%;
+}
+
+nav .nav-item.right {
+    float: right;
+}
+
+/** Clear fix */
+.clear-fix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/** Header 2 */
+.hero {
+    background: #2E2F42;
+    min-height: 600px;
+    position: relative;
+}
+
+.hero h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    width: 496px;
+    margin: 10px auto;
+    position: absolute;
+    top: 33%;
+    left: 33%;
+}
+
+/** Section 1 */
+.section-1 {
+    background: #fff;
+    padding: 85px 0 85px 0;
+}
+
+.section-1 ul, .section-2 ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.section-1 ul li {
+    width: 318px;
+    max-height: 150px ;
+    margin-right: 10px;
+    float: left;
+}
+
+/** Section 2 */
+.section-2 {
+    height: 732px;
+    background: rgba(244, 244, 253, 1);
+    padding-top: 85px;
+}
+
+.section-2 h3 {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.section-2 li {
+    float: left;
+}
+
+/** Team card */
+.team-card {
+    margin-right: 50px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), /* Тень снизу */
+    0 6px 20px rgba(0, 0, 0, 0.1); /* Дополнительная тень снизу и по бокам */
+}
+.team-card img {
+    width: 264px;
+    height: 260px;
+}
+
+.team-card-body  {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/** Footer */
+footer {
+    padding: 85px 0 85px 0;
+    background: #2E2F42;
+    max-height: 312px;
+}
+
+footer p {
+    max-width: 264px;
+    color: #fff;
+}
