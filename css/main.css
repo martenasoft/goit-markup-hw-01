@@ -76,21 +76,32 @@ nav .nav-item.right {
 .hero {
     background: #2E2F42;
     min-height: 600px;
-    position: relative;
+}
+.hero div {
+    text-align: center;
+    padding-top: 165px;
 }
 
-.hero h1 {
+.hero div button {
+    margin-top: 25px;
+    width: 169px;
+    height: 56px;
+    background: rgba(77, 90, 229, 1);
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+    0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.hero div h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 56px;
     line-height: 60px;
-    text-align: center;
     color: #fff;
-    width: 496px;
     margin: 10px auto;
-    position: absolute;
-    top: 33%;
-    left: 33%;
+    width: 496px;
 }
 
 /** Section 1 */
@@ -132,8 +143,8 @@ nav .nav-item.right {
     margin-right: 50px;
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), /* Тень снизу */
-    0 6px 20px rgba(0, 0, 0, 0.1); /* Дополнительная тень снизу и по бокам */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+    0 6px 20px rgba(0, 0, 0, 0.1);
 }
 .team-card img {
     width: 264px;
